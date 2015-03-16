@@ -21,4 +21,9 @@
         <name>fs.defaultFS</name>
         <value>hdfs://localhost:9000</value>
     </property>
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/home/vagrant/hadoop_tmp</value>
+        <description></description>
+    </property>
 </configuration>
